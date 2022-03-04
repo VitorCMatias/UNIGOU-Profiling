@@ -1,0 +1,6 @@
+DWT.cpp:10:1:dwt::dwt()	16	static
+DWT.cpp:35:6:void dwt::start()	16	static
+DWT.cpp:38:6:void dwt::stop()	16	static
+DWT.cpp:44:6:void dwt::set_position(uint8_t)	16	static
+DWT.cpp:48:6:void dwt::store_result()	16	static
+DWT.cpp:61:6:void dwt::compute_statistics()	24	static

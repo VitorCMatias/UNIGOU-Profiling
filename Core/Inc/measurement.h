@@ -14,7 +14,7 @@
 
 
 //uint32_t dwt_ctrl = 0; /* bit mask for DWT->CTRL */
-
+/*
 struct data
 {
     uint32_t cycles;
@@ -41,4 +41,5 @@ public:
 };
 
 void init_dwt();
+/*/
 #endif /* INC_MEASUREMENT_H_ */

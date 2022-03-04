@@ -6,7 +6,7 @@
  */
 
 #include "measurement.h"
-
+/*
 void measurement::set_position(uint8_t position)
 {
     this->position = position;
@@ -45,3 +45,4 @@ void measurement::compute_statistics()
     this->avg.fold_counter /= MEASUREMENT_MAX_SAMPLES;
     this->avg.cpi_cycles /= MEASUREMENT_MAX_SAMPLES;
 }
+*/
