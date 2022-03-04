@@ -28,3 +28,14 @@ void GPIO::toogle(uint32_t time_hight, uint32_t time_low) {
 	osDelay(time_low);
 }
 
+void GPIO::toogle() {
+	/*Faz com que um pino fique oscilando entre alto e baixo, por padrão essa isso acontece a cada 1s*/
+	const uint32_t time_hight = 1000;
+	const uint32_t time_low = 1000;
+
+	HAL_GPIO_WritePin(this->port, this->pin, GPIO_PIN_SET);
+	osDelay(time_hight);
+	HAL_GPIO_WritePin(this->port, this->pin, GPIO_PIN_RESET);
+	osDelay(time_low);
+}
+

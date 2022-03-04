@@ -22,6 +22,7 @@ public:
 	void write(GPIO_PinState state);
 	bool read();
 	void toogle(uint32_t time_hight, uint32_t time_low);
+	void toogle();
 
 
 };
